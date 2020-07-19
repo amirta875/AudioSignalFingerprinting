@@ -4,7 +4,7 @@ function [ matchSongID ] = matchSegment(clipData, fs)
 %  spectral identification pipeline resulting in the most likely match from
 %  the reference database.
 %  This function requires the global variables 'hashtable' and'numSongs'
-%  along with the saved values from 'setings' in order to work properly.
+%  along with the saved values from 'settings' in order to work properly.
 %
 
 load('settings');       % loads parameters 
