@@ -1,7 +1,7 @@
 ## Audio signals identification
 Audio signals identification algorithm based on spectral features fingerprinting, promximate peak pairs and hash values matching.
 
-The pipeline of this educational independent project was adapted from the famous [SHAZAM algorithm](https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf).
+The pipeline of this educational independent project was adapted from the famous [SHAZAM algorithm](https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf) by Dr. Avery Wang.
 ## Introduction
 The basic procedure of identifing a short clip of music using a database of songs is described as follow:
 1. Construct a database of spectral based features for multiple full-length songs.
