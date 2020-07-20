@@ -8,7 +8,7 @@ The basic procedure of identifing a short clip of music using a database of song
 3. Search the database for a match with the features of the clip.
 
 The spectral features for each audio signal will be characterized by the location of local peaks of magnitude in a spectrogram using the Short-time Fourier transform (STFT). Where the frequencies and timing of the peaks are stored as features and 
-should be fairly robust to many possible forms of distortion, such as magnitude and phase error in the frequency domain due to the recording process or additive noise. \n
+should be fairly robust to many possible forms of distortion, such as magnitude and phase error in the frequency domain due to the recording process or additive noise.
 A clip is matched to a song by considering all possible shifts in time and comparing of both their features. In order to mitigate the computational challenges of matching a large amount of features they simplified and preprocessed. 
 Lastly Pairs of peaks that are close in both time and frequency are identified resulting in a table consiting of inital time (t1), edge time (t2), inital frequency (f1),  inital frequency (f2).
 
@@ -36,5 +36,4 @@ Steps 1-4 are executed first in order to build a song data base using the script
 
 Steps 5-9 can be then be executed using the script 'testProcess' in order to find a match between a clip to a song.
 
-Take note that using different diffrent values 
-
+Take note that testing different values of spectral and time\frequency window parameters can be used in order to study the best combination resulting in the optimal time-frequency resolution for optimal identification.
