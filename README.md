@@ -37,3 +37,7 @@ Steps 1-4 are executed first in order to build a song data base using the script
 Steps 5-9 can be then be executed using the script 'testProcess' in order to find a match between a clip to a song.
 
 Take note that testing different values of spectral and time\frequency window parameters can be used in order to study the best combination resulting in the optimal time-frequency resolution for optimal identification.
+
+## Future work and improvments
+1. Testing a diffrent kernal then the STFT such the DWT for more robust results
+2. Adding a threshold value using an adaptive filter for peak finding.
