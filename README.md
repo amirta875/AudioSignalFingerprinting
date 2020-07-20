@@ -20,7 +20,7 @@ of matches, each with different stored values of t1 and songid. Some of these ma
 had a collision. However, we expect the correct song match to have a consistent timing offset from the clip. That is, the difference between t1 for the song and t1 for the clip should be the same for all correct matches.
 Finally The song with the most matches for a single timing offset is considered the best match.
 
-Pipeline procedure:
+## Pipeline procedure:
 
 1. Import data and preprocessing - read the song using 'mp3SongRead'.Average the two channels, subtract the mean, and downsample.
 2. Extract spectral fingerprint - Compute the spectrogram of the song using 'spectralFingerprint'.
