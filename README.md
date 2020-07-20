@@ -40,5 +40,5 @@ Steps 5-9 can be then be executed using the script 'testProcess' in order to fin
 Take note that testing different values of spectral and time\frequency window parameters can be used in order to study the best combination resulting in an optimal time-frequency resolution for optimal identification.
 
 ## Future work and improvments
-1. Testing a diffrent kernal then the STFT such as the DWT(discrete wavelet transform) for more robust results
+1. Testing a diffrent kernal then the STFT such as the DWT(discrete wavelet transform) for more robust results.
 2. Adding a threshold value using an adaptive filter for peak finding.
